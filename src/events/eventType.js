@@ -26,7 +26,10 @@ var eventType = {
     "NAVIGATION": "http://purl.imsglobal.org/caliper/v1/NavigationEvent",
     "OUTCOME": "http://purl.imsglobal.org/caliper/v1/OutcomeEvent",
     "VIEWED": "http://purl.imsglobal.org/caliper/v1/ViewEvent",
-    "SESSION": "http://purl.imsglobal.org/caliper/v1/SessionEvent"
+    "SESSION": "http://purl.imsglobal.org/caliper/v1/SessionEvent",
+
+    // Placeholders
+    "CUSTOM_MESSAGE": "http://purl.imsglobal.org/caliper/v1/MessageEvent"
 };
 
 module.exports = eventType;

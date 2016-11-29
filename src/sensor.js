@@ -190,6 +190,15 @@ Caliper.Request.Envelope            = require('./request/envelope');
 Caliper.Request.EventStoreRequestor = require('./request/eventStoreRequestor');
 Caliper.Request.HttpRequestor       = require('./request/httpRequestor');
 
+// Placeholders
+Caliper.Actions.CRUDActions = {};
+Caliper.Actions.CRUDActions.CREATED = 'http://purl.imsglobal.org/vocab/caliper/v1/action#Created';
+Caliper.Actions.CRUDActions.UPDATED = 'http://purl.imsglobal.org/vocab/caliper/v1/action#Updated';
+Caliper.Actions.CRUDActions.DELETED = 'http://purl.imsglobal.org/vocab/caliper/v1/action#Deleted';
+
+Caliper.Actions.ViewActions = {};
+Caliper.Actions.ViewActions.ACCESSED = 'http://purl.imsglobal.org/vocab/caliper/v1/action#Accessed';
+
 // Replace/Create the global namespace and objects (the sensor) we want there
 Caliper.Sensor = Sensor;
 

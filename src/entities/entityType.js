@@ -33,7 +33,16 @@ var entityType = {
     "RESULT": "http://purl.imsglobal.org/caliper/v1/Result",
     "SESSION": "http://purl.imsglobal.org/caliper/v1/Session",
     "SOFTWARE_APPLICATION": "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
-    "VIEW": "http://purl.imsglobal.org/caliper/v1/View"
+    "VIEW": "http://purl.imsglobal.org/caliper/v1/View",
+
+    // Placeholders
+    "CUSTOM_COLLECTION": "http://purl.imsglobal.org/caliper/v1/Collection",
+    "CUSTOM_COURSE_SECTION": "http://purl.imsglobal.org/caliper/v1/CourseSection",
+    "CUSTOM_GROUP": "http://purl.imsglobal.org/caliper/v1/Group",
+    "CUSTOM_MEMBERSHIP": "http://purl.imsglobal.org/caliper/v1/Membership",
+    "CUSTOM_MESSAGE": "http://purl.imsglobal.org/caliper/v1/Message",
+    "CUSTOM_THREAD": "http://purl.imsglobal.org/caliper/v1/Thread",
+    "CUSTOM_PERSON": "http://purl.imsglobal.org/caliper/v1/Person"
 };
 
 module.exports = entityType;
